@@ -9,11 +9,7 @@
 integration of biological networks.
 *  Cytoscape enables use of broad range of plugins targeting clustering, graph analysis,
 ontology analysis and more. You can find the available plugins here,
-http://apps.cytoscape.org/ .
-*  Network Analyzer, http://apps.cytoscape.org/apps/networkanalyzer , is a built-in plugin that
-comes with Cytoscape, which provides statistical parameters of the network as well as
-central nodes.
-*  ClusterMaker2, http://apps.cytoscape.org/apps/clustermaker2 , provides a wide range of
-algorithms to find the densely connected clusters for the given network.
-*  MCODE, http://apps.cytoscape.org/apps/mcode , is one of the specific methods to identify
-clusters.
+[Cytoscape App Store](http://apps.cytoscape.org/) .
+*  [Network Analyzer](http://apps.cytoscape.org/apps/networkanalyzer) is a built-in plugin of Cytoscape, which provides statistical parameters of the network as well as central nodes.
+*  [ClusterMaker2](http://apps.cytoscape.org/apps/clustermaker2) provides a wide range of algorithms to find the densely connected clusters for the given network.
+*  [MCODE](http://apps.cytoscape.org/apps/mcode) is one of the specific methods to identify clusters.
