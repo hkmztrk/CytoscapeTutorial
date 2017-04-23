@@ -25,5 +25,9 @@ known and predicted interactions.
 
 ### Centrality
 
+#### Degree
+#### Betweenness
+#### Closeness
+
 ### Clusters
 
