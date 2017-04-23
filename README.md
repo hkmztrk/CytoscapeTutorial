@@ -20,3 +20,10 @@ ontology analysis and more. You can find the available plugins here,
 *  [STRING](http://string-db.org) is a protein-protein interaction database which integrates both
 known and predicted interactions.
 *  [STITCH](http://stitch.embl.de/)
+
+## Understanding the Network
+
+### Centrality
+
+### Clusters
+
