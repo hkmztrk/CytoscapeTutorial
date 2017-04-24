@@ -1,8 +1,8 @@
 # Cytoscape Tutorial
 
-This tutorial aims to help to beginners to use Cytoscape and integrate some important network parameters such as centrality and clustering. 
+This tutorial aims to help to beginners in the Bioinformatics fields to use Cytoscape and utilize some important network parameters such as centrality and clustering. 
 
-Some other useful tutorials, [Analysis and Visualization of BiologicalNetworks with Cytoscape](http://www.cgl.ucsf.edu/Outreach/Workshops/NIH-Oct2012/Cytoscape/Analysis%20and%20Visualization%20of%20Biological%20Networks%20with%20Cytoscape%20v6.pdf) and [Introduction to Cytoscape 3.1](http://www.cgl.ucsf.edu/home/scooter/NCI2016/Tutorial2_Networks_Data_Styles_Layouts_and_App_Manager.pdf). 
+Some other useful tutorials, [Analysis and Visualization of BiologicalNetworks with Cytoscape](http://www.cgl.ucsf.edu/Outreach/Workshops/NIH-Oct-2012/Cytoscape/Analysis%20and%20Visualization%20of%20Biological%20Networks%20with%20Cytoscape%20v6.pdf) and [Introduction to Cytoscape 3.1](http://www.cgl.ucsf.edu/home/scooter/NCI2016/Tutorial2_Networks_Data_Styles_Layouts_and_App_Manager.pdf). 
 
 ## Tools
 
