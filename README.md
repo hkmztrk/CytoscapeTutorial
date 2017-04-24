@@ -74,11 +74,11 @@ In the closeness centrality, the node that spread information to the others as f
  
  6. Open Cytoscape and import the downloaded file into the tool by Import > Network > File. 
  
- 7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  
+ 7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  However, if you have different kinds of networks that you give different ids/names/codes to the edges, you should specify the corresponding column as an interaction type.
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359484/23ff9726-294e-11e7-8240-4269bd1aa3f6.PNG)
    
-    However, if you have any other network that you give different ids/names/codes to the edges, you should specify that column as an interaction type.
+
  
  8.  Style Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
 
