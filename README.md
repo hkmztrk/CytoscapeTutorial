@@ -1,5 +1,9 @@
 # Cytoscape Tutorial
 
+This tutorial aims to help to beginners to use Cytoscape and integrate some important network parameters such as centrality and clustering. 
+
+Some other useful tutorials, [Analysis and(Visualization of(Biological(Networks(with(Cytoscape](http://www.cgl.ucsf.edu/Outreach/Workshops/NIH-Oct 2012/Cytoscape/Analysis%20and%20Visualization%20of%20Biological%20Networks%20with%20Cytoscape%20v6.pdf) and [Introduction to Cytoscape 3.1](http://www.cgl.ucsf.edu/home/scooter/NCI2016/Tutorial2_Networks_Data_Styles_Layouts_and_App_Manager.pdf). 
+
 ## Tools
 
 *  [Cytoscape](http://www.cytoscape.org) is an open source environment for the analysis and
@@ -22,6 +26,7 @@ known and predicted interactions.
 *  [STITCH](http://stitch.embl.de/) provides three different interaction types to invesgate, chemical-chemical, protein-chemical and protein-protein. 
 * [GLASS](http://zhanglab.ccmb.med.umich.edu/) is a GPCR-ligand interaction database.
 * [DrugBank]()
+* [Chem2bio2rdf Data sets](https://chem2bio2rdf.wikispaces.com/Datasets)
 
 ## Understanding the Network
 
