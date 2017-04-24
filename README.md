@@ -30,10 +30,14 @@ known and predicted interactions.
 
 #### Degree
 
-![image](https://cloud.githubusercontent.com/assets/4271817/25317110/b3be601a-287a-11e7-83f1-d7190eb689ce.PNG)
+![image](https://cloud.githubusercontent.com/assets/4271817/25327381/97a26a90-28dc-11e7-86ed-4f0554c53891.PNG)
 
 #### Betweenness
+![image](https://cloud.githubusercontent.com/assets/4271817/25327379/979b1b6e-28dc-11e7-9512-bfc033ab1aef.PNG)
+
 #### Closeness
+![image](https://cloud.githubusercontent.com/assets/4271817/25327380/979ba1b0-28dc-11e7-8d8a-ebfe381e5447.PNG)
+
 
 ### Clusters
 
