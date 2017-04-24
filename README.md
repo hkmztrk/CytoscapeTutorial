@@ -46,11 +46,16 @@ known and predicted interactions.
 
 ### Clustering
 
-## Example Task
-1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Type “Diabetes Mellitus" in the searchbox and choose Meshtree code C19.246 and go.
+## Example Task (Protein-Ligand Interaction)
+1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Select advanced Search under Search box.
+   Set the first parameter as Text: “Diabetes Mellitus".
+   Set the second parameter as HasLigand(s): "Yes"
+   By this way, we make sure that each protein in this data set binds to at least one ligand.
 
 2. You might filter the results by selecting a specific organism.
 
 3. Go to Reports menu and select Custom Reports > Customizable Table.
+
+4. Choose the parameters you are interested in. 
 
 
