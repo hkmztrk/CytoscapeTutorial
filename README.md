@@ -30,6 +30,8 @@ known and predicted interactions.
 
 ## Understanding the Network
 
+[Zachary Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club), a well-known social network data set of university karate club, is used for demonstration. Data set contains total 34 actors (nodes) with total 78 interactions (edges). 
+
 ### Centrality
 [Centrality](https://cs.hse.ru/data/2015/05/14/1098547089/4._Centrality_Metrics.pdf) metrics decide how important an actor in the network based on its position. 
 
