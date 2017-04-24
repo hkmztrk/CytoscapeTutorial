@@ -36,13 +36,17 @@ known and predicted interactions.
 [Centrality](https://cs.hse.ru/data/2015/05/14/1098547089/4._Centrality_Metrics.pdf) metrics decide how important an actor in the network based on its position. 
 
 #### Degree
-
+ Degree centrality is simply measured by the number of ties that a node has.
+ 
 ![image](https://cloud.githubusercontent.com/assets/4271817/25327381/97a26a90-28dc-11e7-86ed-4f0554c53891.PNG)
 
 #### Betweenness
+ Betweenness centrality quantifies the number of times a node acts as a bridge along the shortest
+path between two other nodes.
 ![image](https://cloud.githubusercontent.com/assets/4271817/25327379/979b1b6e-28dc-11e7-9512-bfc033ab1aef.PNG)
 
 #### Closeness
+In the closeness centrality, the node that spread information to the others as fast as possible is the most central one in this case where the fast defined as short paths.
 ![image](https://cloud.githubusercontent.com/assets/4271817/25327380/979ba1b0-28dc-11e7-8d8a-ebfe381e5447.PNG)
 
 
@@ -58,6 +62,6 @@ known and predicted interactions.
 
 3. Go to Reports menu and select Custom Reports > Customizable Table.
 
-4. Choose the parameters you are interested in. 
+4. Choose the parameters you are interested in. To be able to define an interaction we need source and target nodes. Therefore, since we want to build a protein-ligand interaction network, our source/target node is protein whereas target/source node is chemical.
 
 
