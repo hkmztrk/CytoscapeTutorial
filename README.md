@@ -30,7 +30,7 @@ known and predicted interactions.
 
 #### Degree
 
-(https://cloud.githubusercontent.com/assets/4271817/25317110/b3be601a-287a-11e7-83f1-d7190eb689ce.PNG)
+[https://cloud.githubusercontent.com/assets/4271817/25317110/b3be601a-287a-11e7-83f1-d7190eb689ce.PNG]
 
 #### Betweenness
 #### Closeness
