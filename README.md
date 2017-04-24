@@ -77,6 +77,7 @@ In the closeness centrality, the node that spread information to the others as f
  7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359484/23ff9726-294e-11e7-8240-4269bd1aa3f6.PNG)
+   
    However, if you have any other network that you give different ids/names/codes to the edges, you should specify that column as an interaction type.
  
  8.  Style Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
@@ -85,6 +86,8 @@ In the closeness centrality, the node that spread information to the others as f
  Tools > Network Analysis > Analyze Network.
  
  10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. Then choose the type of visualization and the parameter you want to investigate.
+ 
+ ![image](https://cloud.githubusercontent.com/assets/4271817/25359483/23fdb898-294e-11e7-93d3-71204646c113.PNG)
  
  11. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape. In Cytoscape versions 3.x, follow 
  Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install
