@@ -19,7 +19,7 @@ ontology analysis and more. You can find the available plugins here,
 ### General Data
 * [Example data sets](http://www-personal.umich.edu/~mejn/netdata/)
 ### Biological/Chemical Data
-* [PDB](http://www.rcsb.org/pdb/software/rest.do)
+* [Protein Data Bank (PDB)](http://www.rcsb.org/pdb/software/rest.do)
 * [CHEMBL](https://www.ebi.ac.uk/chembl/)
 *  [STRING](http://string-db.org) is a protein-protein interaction database which integrates both
 known and predicted interactions.
@@ -44,5 +44,13 @@ known and predicted interactions.
 ![image](https://cloud.githubusercontent.com/assets/4271817/25327380/979ba1b0-28dc-11e7-8d8a-ebfe381e5447.PNG)
 
 
-### Clusters
+### Clustering
+
+## Example Task
+1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Type “Diabetes Mellitus" in the searchbox and choose Meshtree code C19.246 and go.
+
+2. You might filter the results by selecting a specific organism.
+
+3. Go to Reports menu and select Custom Reports > Customizable Table.
+
 
