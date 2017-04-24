@@ -78,14 +78,18 @@ In the closeness centrality, the node that spread information to the others as f
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359484/23ff9726-294e-11e7-8240-4269bd1aa3f6.PNG)
    
-   However, if you have any other network that you give different ids/names/codes to the edges, you should specify that column as an interaction type.
+    However, if you have any other network that you give different ids/names/codes to the edges, you should specify that column as an interaction type.
  
  8.  Style Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
 
 9. To get information about the topology of the network such as the number of edges, clusteringcoefficient, network diameter and more, we will use Network Analyzer. 
  Tools > Network Analysis > Analyze Network.
  
- 10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. Then choose the type of visualization and the parameter you want to investigate.
+ 10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. 
+ 
+ ![image](https://cloud.githubusercontent.com/assets/4271817/25359482/23fb1700-294e-11e7-9e43-5a319c7b8625.PNG)
+ 
+ Then choose the type of visualization and the parameter you want to investigate.
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359483/23fdb898-294e-11e7-93d3-71204646c113.PNG)
  
