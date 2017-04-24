@@ -69,6 +69,26 @@ In the closeness centrality, the node that spread information to the others as f
 
 4. Choose the parameters you are interested in. To be able to define an interaction we need source and target nodes. 
 
-    Therefore, since we want to build a protein-ligand interaction network, our source/target node is protein whereas target/source node is chemical.
+  Therefore, since we want to build a protein-ligand interaction network, our source/target node is protein whereas target/source node is chemical.
+  
+ 5. Create the report and download it one of the given formats. Now we have a file that we can investigate!
+ 
+ 6. Open Cytoscape and import the downloaded file into the tool by Import > Network > File. 
+ 
+ 7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  
+ 
+ However, if you have any other network that you give different ids/names/codes to the edges, you should specify that column as an interaction type.
+ 
+ 8.  Style Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
+
+9. To get information about the topology of the network such as the number of edges, clusteringcoefficient, network diameter and more, we will use Network Analyzer. 
+ Tools > Network Analysis > Analyze Network.
+ 
+ 10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. Then choose the type of visualization and the parameter you want to investigate.
+ 
+ 11. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape. In Cytoscape versions 3.x, follow 
+ Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install
+
+12. Go Apps > ClusterMaker2 > MCODE. Before starting, you can change the parameters according to your need using Advanced Options. For example increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
 
 
