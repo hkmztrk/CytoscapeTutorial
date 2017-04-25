@@ -54,6 +54,9 @@ In the closeness centrality, the node that spread information to the others as f
 
 ### Clustering
 
+![image](https://cloud.githubusercontent.com/assets/4271817/25387772/a942d3fe-29d4-11e7-843f-2b9fce610295.PNG)
+
+
 ## Example Task (Protein-Ligand Interaction)
 1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Select advanced Search under Search box.
 
@@ -99,4 +102,3 @@ In the closeness centrality, the node that spread information to the others as f
 12. Go Apps > ClusterMaker2 > MCODE. 
     Before starting, you can change the parameters according to your need using Advanced Options. For example increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
 
-![image](https://cloud.githubusercontent.com/assets/4271817/25387772/a942d3fe-29d4-11e7-843f-2b9fce610295.PNG)
