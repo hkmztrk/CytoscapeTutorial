@@ -68,7 +68,7 @@ Clustering helps us to identify densely connected nodes.
 
    Set the first parameter as **Text**, then type __Diabetes Mellitus__.
    
-   Set the second parameter as **HasLigand(s)**then select __Yes__
+   Set the second parameter as **HasLigand(s)** then select __Yes__
    
    By this way, we make sure that each protein in this data set binds to at least one ligand.
 
@@ -81,7 +81,7 @@ Clustering helps us to identify densely connected nodes.
   
  5. Create the report and download it one of the given formats. Now we have a file that we can investigate!
  
- 6. Open Cytoscape and import the downloaded file into the tool by Import > Network > File. 
+ 6. Open Cytoscape and import the downloaded file into the tool by **Import > Network > File**. 
  
  7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  However, if you have different kinds of networks that you give different ids/names/codes to the edges, you should specify the corresponding column as an interaction type.
  
