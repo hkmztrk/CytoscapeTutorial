@@ -60,18 +60,18 @@ In the closeness centrality, the node that spread information to the others as f
 ## Example Task (Protein-Ligand Interaction)
 1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Select advanced Search under Search box.
 
-   Set the first parameter as Text: “Diabetes Mellitus".
+   Set the first parameter as **Text**, then type __Diabetes Mellitus__.
    
-   Set the second parameter as HasLigand(s): "Yes"
+   Set the second parameter as **HasLigand(s)**then select __Yes__
    
    By this way, we make sure that each protein in this data set binds to at least one ligand.
 
 2. You might filter the results by selecting a specific organism.
 
-3. Go to Reports menu and select Custom Reports > Customizable Table.
+3. Go to Reports menu and select **Custom Reports > Customizable Table**.
 
 4. Choose the parameters you are interested in. To be able to define an interaction we need source and target nodes. 
-   Therefore, since we want to build a protein-ligand interaction network, our source/target node is protein whereas target/source node is chemical.
+   Since we want to build a protein-ligand interaction network, our source/target node is protein whereas target/source node is chemical. We need to select at least two parameters __protein name/id__ and __chemical name/id__.
   
  5. Create the report and download it one of the given formats. Now we have a file that we can investigate!
  
@@ -81,12 +81,10 @@ In the closeness centrality, the node that spread information to the others as f
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359484/23ff9726-294e-11e7-8240-4269bd1aa3f6.PNG)
    
-
- 
- 8.  Style Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
+ 8.  **Style** Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
 
 9. To get information about the topology of the network such as the number of edges, clusteringcoefficient, network diameter and more, we will use Network Analyzer. 
- Tools > Network Analysis > Analyze Network.
+ **Tools > Network Analysis > Analyze Network**
  
  10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. 
  
@@ -97,8 +95,8 @@ In the closeness centrality, the node that spread information to the others as f
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359483/23fdb898-294e-11e7-93d3-71204646c113.PNG)
  
  11. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape.  
- Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install
+ **Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install**
 
-12. Go Apps > ClusterMaker2 > MCODE. 
-    Before starting, you can change the parameters according to your need using Advanced Options. For example increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
+12. Go **Apps > ClusterMaker2 > MCODE.**
+    Before starting, you can change the parameters according to your need using **Advanced Options**. For instance, increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
 
