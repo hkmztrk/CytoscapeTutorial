@@ -30,15 +30,17 @@ known and predicted interactions.
 
 ## Understanding the Network
 
-[Zachary Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club), a well-known social network data set of university karate club, is used for demonstration. Data set contains total 34 actors (nodes) with total 78 interactions (edges). 
+[Zachary Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club), a well-known social network data set of university karate club, is used for demonstration. Data set contains total 34 actors (nodes) with 78 interactions (edges). 
 
 ### Centrality
-[Centrality](https://cs.hse.ru/data/2015/05/14/1098547089/4._Centrality_Metrics.pdf) metrics decide how important an actor in the network based on its position. 
+[Centrality](https://cs.hse.ru/data/2015/05/14/1098547089/4._Centrality_Metrics.pdf) metrics decide how important an actor in the network based on its position. In the examples below, size  and color of the nodes indicate importance. Importance decreases in the following direction: bigger, red --> smaller, green. 
 
 #### Degree
  Degree centrality is simply measured by the number of ties that a node has.
  
 ![image](https://cloud.githubusercontent.com/assets/4271817/25327381/97a26a90-28dc-11e7-86ed-4f0554c53891.PNG)
+
+
 
 #### Betweenness
  Betweenness centrality quantifies the number of times a node acts as a bridge along the shortest
@@ -53,6 +55,10 @@ In the closeness centrality, the node that spread information to the others as f
 
 
 ### Clustering
+
+Clustering is the task of dividing a set of objects into groups/clusters/cliques so that the  objects with similar properties are placed together. 
+
+Clustering helps us to identify densely connected nodes.
 
 ![image](https://cloud.githubusercontent.com/assets/4271817/25387772/a942d3fe-29d4-11e7-843f-2b9fce610295.PNG)
 
@@ -96,6 +102,8 @@ In the closeness centrality, the node that spread information to the others as f
  
  11. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape.  
  **Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install**
+ 
+ ![image](https://cloud.githubusercontent.com/assets/4271817/25437718/f1cda3da-2a9f-11e7-9416-8e23b5d020d9.PNG)
 
 12. Go **Apps > ClusterMaker2 > MCODE.**
     Before starting, you can change the parameters according to your need using **Advanced Options**. For instance, increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
