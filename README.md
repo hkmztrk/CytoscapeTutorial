@@ -63,7 +63,9 @@ Clustering helps us to identify densely connected nodes.
 ![image](https://cloud.githubusercontent.com/assets/4271817/25387772/a942d3fe-29d4-11e7-843f-2b9fce610295.PNG)
 
 
-## Example Task (Protein-Ligand Interaction)
+## Example Tasks
+
+### Protein-Ligand Interaction Data
 1. Go to [PDB](http://www.rcsb.org/pdb/software/rest.do) database. Select advanced Search under Search box.
 
    Set the first parameter as **Text**, then type __Diabetes Mellitus__.
@@ -81,18 +83,30 @@ Clustering helps us to identify densely connected nodes.
   
  5. Create the report and download it one of the given formats. Now we have a file that we can investigate!
  
- 6. Open Cytoscape and import the downloaded file into the tool by **Import > Network > File**. 
+### Protein-Protein Interaction Data
+1.	Go to [STRING]((http://string-db.org/)) database.
+
+2.	Search for **Protein name**: "Alzheimer" and set the **organism**: “homo sapiens”. Choose the first of the offered options.
+
+3.	You’ll see a small network of 10 interacting proteins. Expand the network by following the steps, **Data settings > max number of interactors > custom value > max interactors = 60**. 
+
+4.	To download the data, follow **Tables/Exports > simple tabular text output**.
+
+
+### Cytoscape
  
- 7. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  However, if you have different kinds of networks that you give different ids/names/codes to the edges, you should specify the corresponding column as an interaction type.
+1. Open Cytoscape and import the downloaded file into the tool by **Import > Network > File**. 
+ 
+2. To create the network we should state Source Interaction and Target Interaction. These refer to the proteins and ligands that that we want to connect. Interaction Type is protein-ligand interaction (PLI).  However, if you have different kinds of networks that you give different ids/names/codes to the edges, you should specify the corresponding column as an interaction type.
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359484/23ff9726-294e-11e7-8240-4269bd1aa3f6.PNG)
    
- 8.  **Style** Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
+3.  **Style** Tab on the Control Panel will help you to customize network style. You can change node size and color, arrange edge width as well as other visual properties.
 
-9. To get information about the topology of the network such as the number of edges, clusteringcoefficient, network diameter and more, we will use Network Analyzer. 
+4. To get information about the topology of the network such as the number of edges, clusteringcoefficient, network diameter and more, we will use Network Analyzer. 
  **Tools > Network Analysis > Analyze Network**
  
- 10. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. 
+5. Network Analyzer also allows us to pick central nodes with several different ranking methods. To visualize the central nodes use Visualize Parameters button on Results Panel. 
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359482/23fb1700-294e-11e7-9e43-5a319c7b8625.PNG)
  
@@ -100,11 +114,11 @@ Clustering helps us to identify densely connected nodes.
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25359483/23fdb898-294e-11e7-93d3-71204646c113.PNG)
  
- 11. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape.  
+6. ClusterMaker2 is not a build-in plugin, so you need to integrate it to Cytoscape.  
  **Apps > AppManager > Type ClusterMaker2 > Select ClusterMaker2 from list > Install**
  
  ![image](https://cloud.githubusercontent.com/assets/4271817/25437718/f1cda3da-2a9f-11e7-9416-8e23b5d020d9.PNG)
 
-12. Go **Apps > ClusterMaker2 > MCODE.**
+7. Go **Apps > ClusterMaker2 > MCODE.**
     Before starting, you can change the parameters according to your need using **Advanced Options**. For instance, increasing the number of K-cores will increase the threshold of number of nodes to be included in the communities. You can perform MCODE for a small area of the network as well as the whole one.
 
