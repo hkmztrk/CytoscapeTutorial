@@ -84,7 +84,7 @@ Clustering helps us to identify densely connected nodes.
  5. Create the report and download it one of the given formats. Now we have a file that we can investigate!
  
 ### Protein-Protein Interaction Data
-1.	Go to [STRING]((http://string-db.org/)) database.
+1.	Go to [STRING](http://string-db.org/) database.
 
 2.	Search for **Protein name**: "Alzheimer" and set the **organism**: “homo sapiens”. Choose the first of the offered options.
 
